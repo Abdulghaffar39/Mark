@@ -4,22 +4,63 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Mark</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/utility.css">
+
 </head>
 
 <body>
     
-    <div>
+    <header>
+        <!-- navbar started -->
+     <div class="navbar container d-flex flex-row justify-content-between f-wrap align-items-center p-3">
 
-        <div>
-            <h1>Mark</h1>
+        <div class="child-nav" id="child-nav-1">
+            <img src="./Assets/imges/mark.png" width="100rem" alt="Mark">
         </div>
 
-        <div></div>
+        <div class="child-nav d-flex flex-row justify-content-between f-wrap align-items-center" id="child-nav-2"> 
+            <p class="para-nav">About</p>
+            <p class="para-nav">Work</p>
+            <p class="para-nav">Contact</p>
+        </div>
 
     </div>
+    <!-- navbar ended -->
+    </header>
+
+    <main>
+        <!-- container-1 started -->
+         <div class="container-1 container  d-flex flex-row justify-content-between f-wrap align-items-center">
+
+            <div>
+
+                <h2 class="head-1 color-gray">Hi, I’m Mark.</h2>
+                <h2 class="head-1 color-dark">I craft innovative designs and experiences that help brands thrive.</h2>
+                <button class="btn-1 d-flex flex-row justify-content-center f-wrap align-items-center">
+                    <a href="" class="decoration-1"><span class="color-white fs-2">Get in Touch</span> <i class="fa-solid fa-arrow-right arrow"></i></a>
+                </button>
+                <div class="decoration-2 fs-1 mx-2">
+                    <a href="" class="link-1 color-black mx-0">Instagram</a> 
+                    <a href="" class="link-1 color-black mx-3">Behance</a> 
+                    <a href="" class="link-1 color-black mx-0">Dribble</a>
+                </div>
+
+            </div>
+
+            <div class="img-1">
+                <img src="./Assets/imges/men.png" height="420vh" alt="Men">
+            </div>
+
+         </div>
+        <!-- container-1 ended -->
+    </main>
+
+
 
 
 
@@ -29,6 +70,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

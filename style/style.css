@@ -1,0 +1,86 @@
+/* navbar started */
+#child-nav-2 {
+    
+}
+
+.para-nav {
+    font-size: 1.8rem;
+}
+
+#child-nav-2 {
+    gap: 6rem;
+}
+/* navbar ended */
+
+
+/* container-1 started */
+.container-1 {
+    margin-top: 6rem;
+    gap: 12rem;
+}
+
+.head-1 {
+    font-size: 3.6vw;
+    font-family: "tahomabo";
+    font-weight: 800;
+    width: 50vw;
+}
+
+.btn-1 {
+    width: 22rem;
+    height: 5.4rem;
+    font-size: 2.2vw;
+    border: 1px solid transparent;
+    border-radius: 6rem;
+    background-color: var(--bg-black);
+    color: var(--color-white);
+}
+
+.arrow {
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.decoration-1 {
+    text-decoration: 2.4px underline var(--bg-blue);
+}
+
+.decoration-2 {
+    text-decoration: 2.4px underline var(--color-black);
+}
+
+.img-1 {
+    width: 40vw;
+}
+/* container-1 ended */
+
+
+
+
+
+@media (max-width: 700px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        gap: 5rem;
+        width: 100vw;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #child-nav-1 {
+         justify-content: center !important;
+         margin: 0 auto;
+    }
+
+    #child-nav-2 {
+        display: none !important;
+    }
+}

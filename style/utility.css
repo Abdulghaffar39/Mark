@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: "sans-light";
+    font-family: "sans";
     font-weight: 600;
     font-style: normal;
     font-size: 62.5%;
@@ -37,10 +37,16 @@ body {
     --bg-black: #000000;
     --bg-white: #ffffff;
     --bg-gray: #808080;
+    --bg-dark: #333333;
+    --bg-blue: #0000ff;
 }
 
 .bg-white {
     background-color: var(--bg-white);
+}
+
+.bg-dark {
+    background-color: var(--dark-white);
 }
 
 .bg-black {
@@ -51,15 +57,25 @@ body {
     background-color: var(--bg-gray);
 }
 
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
 :root {
 
     --color-black: #000000;
     --color-white: #ffffff;
     --color-gray: #808080;
+    --color-dark: #333333;
+    --color-blue: blue;
 }
 
 .color-white {
     color: var(--color-white);
+}
+
+.color-dark {
+    color: var(--color-dark);
 }
 
 .color-black {
@@ -68,4 +84,8 @@ body {
 
 .color-gray {
     color: var(--color-gray);
+}
+
+.color-blue {
+    color: var(--color-blue);
 }
