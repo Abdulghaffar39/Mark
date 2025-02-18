@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "sans-light";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-white);
+    color: var(--color-black);
+}
+
+@font-face {
+    font-family: "sans";
+    src: url(../Assets/font/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "tahomabo";
+    src: url(../Assets/font/Tahoma-Font/TAHOMAB0.TTF);
+}
+
+.sans {
+    font-family: "sans";
+}
+
+.tahomabo {
+    font-family: "tahomabo";
+}
+
+:root {
+
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+    --bg-gray: #808080;
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+:root {
+
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray: #808080;
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-gray {
+    color: var(--color-gray);
+}
