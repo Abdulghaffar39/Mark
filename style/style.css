@@ -1,4 +1,4 @@
-/* navbar started */
+/* navbar started-------------- */
 
 .para-nav {
     font-size: 1.8rem;
@@ -7,26 +7,24 @@
 #child-nav-2 {
     gap: 6rem;
 }
-/* navbar ended */
+/* navbar ended------------ */
 
 
-/* container-1 started */
+/* container-1 started-------------- */
 .container-1 {
     margin-top: 6rem;
-    gap: 12rem;
+    gap: rem;
 }
 
 .head-1 {
-    font-size: 3.6vw;
-    font-family: "tahomabo";
-    font-weight: 800;
-    width: 50vw;
+    font-size: 6rem;
+    font-weight: 700;
+    width: 48vw;
 }
 
 .btn-1 {
-    width: 12vw;
+    width: 30rem;
     height: 5.5rem;
-    font-size: 1vw !important;
     border: 1px solid transparent;
     border-radius: 6rem;
     background-color: var(--bg-black);
@@ -34,37 +32,44 @@
 }
 
 .arrow {
-    font-size: 1vw;
+    font-size: 2.2rem;
     color: var(--color-white);
 }
 
 .decoration-1 {
+    font-size: 2.4rem;
     text-decoration: 1.5px underline var(--bg-blue);
 }
 
 .decoration-2 {
     text-decoration: 1px underline var(--color-black);
+    font-size: 2.5rem;
 }
-/* container-1 ended */
+/* container-1 ended---------------- */
 
-/* container-2 started */
+/* container-2 started------------ */
 .container-2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
-/* container-2 ended */
+/* container-2 ended --------------*/
 
-/* footer started */
+/* footer started---------------- */
 .footer {
     margin: 2rem 0rem;
+    margin: 3rem 0rem;
+}
+
+.img-footer {
+    width: 10vw;
 }
 
 .container-footer-1 {
-    gap: 20vw;
+    gap: 4vw;
     margin: 1rem 0rem;
 }
 
 .container-footer-2 {
-    gap: 24vw;
+    gap: 7.6vw;
     margin: 1rem 0rem;
 }
 /* footer ended */
@@ -74,25 +79,62 @@
 
 
 @media (max-width: 1200px) {
+
+    .main-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
     .container-1 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 8rem;
+        justify-content: start !important;
+        align-items: start;
+        gap: 4rem;
     }
-}
 
+    .btn-1 {
+        width: 25rem !important;
+        height: 5rem !important;
+    }
+    
+    .button-font {
+        font-size: 5rem !important;
+    }
 
-@media (max-width: 1040px) {
-    #img-1 {
-       width: 30vw; 
+    .img-footer {
+        width: 16rem;
+    }
+
+    .hp {
+        width: 6rem;
+    }
+
+    .head-1 {
+        width: 70vw;
+    }
+
+    .head-3 {
+        text-align: start;
+        margin: 0 !important;
     }
 }
 
 
 @media (max-width: 800px) {
+
+    .container-navbar {
+        width: 80vw;
+    }
+
+    .head-1 {
+        font-size: 7vw;
+    }
+
     .btn-1 {
         width: 15rem;
         height: 3.6rem;
@@ -102,18 +144,14 @@
     .arrow {
         font-size: 1rem;
     }
+
+
 }
 
 
 @media (max-width: 700px) {
-/* navbar started */
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center !important;
-        gap: 5rem;
-        width: 100vw;
-    }
+/* container started  */
+
 
     .btn-1 {
         width: 12rem;       
@@ -121,24 +159,27 @@
         font-size: 2.4vw !important;
     }
 
-    .container-1 {
-        display: flex;
-        flex-wrap: wrap;
 
+    #img-1 {
+        width: 50vw !important;
     }
-/* navbar ended */
+
+    .container-1 {
+        width: 80vw !important;
+    }
+/* container ended  */
 
 /* gooter ended */
 .img-footer {
-    width: 12vw;
+    width: 18vw;
 }
 
 .container-footer-2 {
-    gap: 8rem;
+    gap: 6rem;
 }
 
 .hp {
-    width: 2rem;
+    width: 6vw;
 }
 /* footer ended */
 }
@@ -146,8 +187,8 @@
 @media (max-width: 500px) {
 /* navbar started */
     #child-nav-1 {
-         justify-content: center !important;
-         margin: 0 auto;
+        display: flex;
+         justify-content: start !important;
     }
 
     #child-nav-2 {
@@ -159,33 +200,32 @@
     .container-1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 1.5rem auto;
-        gap: 1rem;
-        width: 80%;
+        justify-content: start !important;
+        align-items: start !important;
+        margin: 0 auto;
+        width: 100% !important;
     }
 
     .btn-1 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 40vw !important;
     }
+    
+        .decoration-1 {
+            font-size: 4vw;
+            margin: 0 auto;
+        }
 
     .arrow {
-        font-size: 1rem;
-        padding: 4px;
+        font-size: 3vw;
+
     }
 
-    .decoration-2 {
-       text-align: center;
-       margin: 0 auto;
-    }
 
     .link-1 {
-        font-size: 0.8rem;
+        font-size: 1.5rem !important;
    
     }
 /* container-1 ended */
