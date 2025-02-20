@@ -4,8 +4,17 @@
     font-size: 1.8rem;
 }
 
+.mark {
+    background-color: transparent;
+    width: 8rem;
+}
+
+.icon-nav {
+    display: none;
+}
+
 #child-nav-2 {
-    gap: 6rem;
+    gap: 5rem;
 }
 /* navbar ended------------ */
 
@@ -19,7 +28,7 @@
 .head-1 {
     font-size: 6rem;
     font-weight: 700;
-    width: 48vw;
+    width: 45vw;
 }
 
 .btn-1 {
@@ -50,6 +59,7 @@
 /* container-2 started------------ */
 .container-2 {
     font-size: 3rem;
+    padding: 0rem 2.8rem;
 }
 /* container-2 ended --------------*/
 
@@ -188,7 +198,16 @@
 /* navbar started */
     #child-nav-1 {
         display: flex;
-         justify-content: start !important;
+        justify-content: start !important; 
+    }
+
+    .mark {
+        width: 6rem !important;
+        background-color: transparent;        
+    }
+
+    .icon-nav {
+        display: block;
     }
 
     #child-nav-2 {
@@ -203,14 +222,15 @@
         justify-content: start !important;
         align-items: start !important;
         margin: 0 auto;
-        width: 100% !important;
+        width: 100vw !important;
     }
 
     .btn-1 {
         display: flex;
         justify-content: center !important;
         align-items: center !important;
-        width: 40vw !important;
+        width: 50vw !important;
+        margin: 1rem 0rem;
     }
     
         .decoration-1 {
@@ -225,7 +245,7 @@
 
 
     .link-1 {
-        font-size: 1.5rem !important;
+        font-size: 4vw !important;
    
     }
 /* container-1 ended */
@@ -233,7 +253,7 @@
 
 /* container-2 started */
 .container-2 {
-    font-size: 3rem;
+    font-size: 8vw;
 }
 /* container-2 ended */
 
